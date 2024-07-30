@@ -1,0 +1,43 @@
+/* 
+colour palette:
+navy blue: #071E3D
+Dark blue: #1F4287
+turqoise: #278EA5
+neon green: #21E6C1
+*/
+@font-face {
+    font-family: 'mainFont';
+    src: url('media/misc/RonysiswadiArchitect4-qZmp2.ttf');
+  }
+html{
+    width: 100%; 
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width:100%;
+    font-family: mainFont, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.toolbar{
+    height: 70px;
+    width: 100%;
+    background-color: #21E6C1;
+    
+}
+.toolbar img{
+    height: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
