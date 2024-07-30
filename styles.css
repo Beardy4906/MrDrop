@@ -8,14 +8,15 @@ neon green: #21E6C1
 @font-face {
     font-family: 'mainFont';
     src: url('media/misc/RonysiswadiArchitect4-qZmp2.ttf');
-  }
+}
+
 html{
     width: 100%; 
     height: 100%;
     margin: 0px;
     padding: 0px;
-
 }
+
 body{
     padding: 0px;
     margin: 0px;
@@ -23,21 +24,65 @@ body{
     width:100%;
     font-family: mainFont, Arial, Helvetica, sans-serif;
     font-size: 24px;
+    background-color: #071E3D; /* navy blue background */
 }
+
 .toolbar{
     height: 70px;
     width: 100%;
-    background-color: #21E6C1;
-    
+    background-color: #21E6C1; /* neon green toolbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .toolbar img{
     height: 70px;
     margin-left: 20px;
     margin-right: 20px;
-    
 }
+
+.toolbar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar nav ul li{
+    margin-right: 20px;
+}
+
+.toolbar nav a{
+    color: #1F4287; /* dark blue links */
+    text-decoration: none;
+}
+
 .header{
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+}
 
+.header h1{
+    color: #278EA5; /* turquoise heading */
+}
+
+.cta-button{
+    background-color: #21E6C1; /* neon green button */
+    color: #071E3D; /* navy blue text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cta-button:hover{
+    background-color: #1F4287; /* dark blue hover */
+    color: #21E6C1; /* neon green text */
+}
+
+.main-content{
+    padding: 20px;
+    color: #278EA5; /* turquoise text */
 }
